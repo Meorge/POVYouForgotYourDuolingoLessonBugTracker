@@ -1,6 +1,6 @@
 name: New Bug Report
 description: Issue a bug report about the game POV You Forgot Your Duolingo Lesson
-title: ""
+title: "<Bug report title>"
 labels: ["bug"]
 assignees:
   - Meorge
