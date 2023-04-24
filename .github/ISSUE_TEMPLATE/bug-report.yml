@@ -1,0 +1,85 @@
+name: New Bug Report
+description: Issue a bug report about the game POV You Forgot Your Duolingo Lesson
+title: "<Bug report title>"
+labels: ["bug"]
+assignees:
+  - Meorge
+body:
+  - type: markdown
+    attributes:
+      value: |
+        First of all, thanks for taking the time to fill out this bug report!
+        Unfortunately, there's no promise that bugs posted here will eventually be fixed. With a lot of stuff going on in my life right now, most importantly [a major car accident](https://meorge.itch.io/pov-you-forgot-your-duolingo-lesson/devlog/518648/car-accident-aka-why-there-havent-been-updates), I'm not super motivated to work more on the game right now.
+        In the future, when I have more energy, I might return to this bug tracker and try to fix some of the bugs.
+        
+        Thanks for understanding!
+  
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: Describe the bug
+      description: A clear and concise description of what the bug is.
+      placeholder: Explain your bug here
+    validations:
+      required: true
+  
+  - type: textarea
+    id: context
+    attributes:
+      label: What you were running when the error occurred
+      description: What were you running at the time of the error?
+      placeholder: A clear and concise description of what you were doing before the error occurred
+    validations:
+      required: true
+  
+  - type: textarea
+    id: step-by-step
+    attributes:
+      label: How to reproduce the bug
+      description: What did you do to cause this bug?
+      placeholder: |
+        1. Go to '...'
+        2. Click on '....'
+        3. See error
+    validations:
+      required: false
+  
+  - type: textarea
+    id: attachments
+    attributes:
+      label: Attached screenshots or video clips
+      description: Add screenshots and/or video clips to help explain your problem.
+      placeholder: Attach screenshots or video clips by clicking this area to highlight it and then dragging files in.
+    validations:
+      required: true
+  
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      description: Please select the operating system you have been using
+      options:
+        - Windows
+        - macOS
+    validations:
+      required: true
+  
+  - type: textarea
+    id: log
+    attributes:
+      label: Player.log file
+      description: Please copy/paste or upload your Player.log file here.
+      placeholder: |
+        You'll find this file here (depending on your OS):
+        - macOS: `~/Library/Logs/Meorge/POV You Forgot Your Duolingo Lesson/Player.log`
+        - Windows: `%USERPROFILE%\AppData\LocalLow\Meorge\POVYouForgotYourDuolingoLesson\Player.
+      render: shell
+    validations:
+      required: true
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional context
+      description: Add any other context or information that can help solving the problem here.
+    validations:
+      required: false

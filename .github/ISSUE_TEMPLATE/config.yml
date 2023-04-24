@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Contributing Language Data
+    url: https://docs.google.com/document/d/1LZQVBLC3oQvPXQGFbvhGyPwxYyUF9oXMdG9BBuoBEk4/edit?usp=sharing
+    about: If you're interested in contributing a new language to the game, it's here!
+  - name: Meorge's Official Discord Server
+    url: https://discord.gg/4EERzCj
+    about: Discuss the game and its development here!
